@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <TextBlock Text=""/>
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="10">
+            <Button Content="LOGIN" Width="150" Height="20" Margin="5" Click="Login_Click"/>
+            <Button Content="CLAIM" Width="150" Height="20" Margin="5" Click="Claim_Click"/>
+            <Button Content="VIEW SUBMITTED CLAIMS" Width="150" Height="20" Margin="5" Click="VIEW_Click"/>
+            <Button Content="MANAGE CLAIMS" Width="150" Height="20" Margin="5" Click="MANAGE_Click_1"/>
+            <Button Content="EXIT" Width="150" Height="20" Margin="5" Click="EXIT_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
