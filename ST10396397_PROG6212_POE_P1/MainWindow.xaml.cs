@@ -23,27 +23,31 @@ namespace ST10396397_PROG6212_POE_P1
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-
+            var loginWindow = new LoginWindow();
+            loginWindow.Show();
         }
 
         private void Claim_Click(object sender, RoutedEventArgs e)
         {
-
+            var claimWindow = new ClaimWindow();
+            claimWindow.Show();
         }
 
         private void VIEW_Click(object sender, RoutedEventArgs e)
         {
-
+            var viewWindow = new ViewWindow();
+            viewWindow.Show();
         }
 
         private void MANAGE_Click_1(object sender, RoutedEventArgs e)
         {
-
+            var manageWindow = new ManageWindow();
+            manageWindow.Show();
         }
 
         private void EXIT_Click(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.Shutdown();
         }
 
     }

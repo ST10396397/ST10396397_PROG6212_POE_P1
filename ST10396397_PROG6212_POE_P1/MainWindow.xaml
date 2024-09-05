@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Text=""/>
+        <TextBlock Text="" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Grid.ColumnSpan="2"/>
         <StackPanel Grid.Row="1" Grid.Column="0" Margin="10">
             <Button Content="LOGIN" Width="150" Height="20" Margin="5" Click="Login_Click"/>
             <Button Content="CLAIM" Width="150" Height="20" Margin="5" Click="Claim_Click"/>
