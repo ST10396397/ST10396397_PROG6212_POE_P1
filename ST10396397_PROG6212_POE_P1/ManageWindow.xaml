@@ -18,5 +18,13 @@
         </Grid.ColumnDefinitions>
         
         <TextBlock Text="Manage Page" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Grid.ColumnSpan="2"/>
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="10">
+            <Label Content="Submitted Claims:"/>
+            <ListBox Name="SubmittedClaimsListBox" Width="350" Height="150" Margin="5"/>
+            <Button Content="ACCEPT" Width="150" Margin="5" Click="ACCEPT_Click"/>
+            <Button Content="REJECT" Width="150" Margin="5" Click="REJECT_Click"/>
+            <Button Content="BACK" Width="150" Margin="5" Click="BACK_Click"/>
+        </StackPanel>
+
     </Grid>
 </Window>

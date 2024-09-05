@@ -23,5 +23,20 @@ namespace ST10396397_PROG6212_POE_P1
         {
             InitializeComponent();
         }
+
+        private void ACCEPT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void REJECT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BACK_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

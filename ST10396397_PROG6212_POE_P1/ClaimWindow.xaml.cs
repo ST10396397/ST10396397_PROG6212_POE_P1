@@ -33,5 +33,10 @@ namespace ST10396397_PROG6212_POE_P1
         {
 
         }
+
+        private void BACK_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
