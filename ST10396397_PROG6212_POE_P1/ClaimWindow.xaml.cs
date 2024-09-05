@@ -23,5 +23,15 @@ namespace ST10396397_PROG6212_POE_P1
         {
             InitializeComponent();
         }
+
+        private void BrowseButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Submit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
